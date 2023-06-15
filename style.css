@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+:root {
+    --dark-theme: #D03F2F;
+  }
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3A4663;
+}
+h1{
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: -0.533333px;
+    color: #FFFFFF;
+}
+h2{
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 11px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    margin-left: 119px;
+    margin-top: 15px;
+}
+.input{
+    background-color: #181F33;
+    border-radius: 10px;
+    border: 0;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 37px;
+    text-align: right;
+    letter-spacing: -0.666667px;
+    color: #FFFFFF;
+    width: 303px;
+    padding: 29px 24px 22px 0px;
+    margin-top: 32px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.second-div{
+    background-color: #242D44;
+    border-radius: 10px;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button{
+    width: 60px;
+    height: 64px;
+    border-radius: 5px;
+    background-color:#EAE3DC;
+    border: 0;
+    box-shadow: inset 0px -4px 0px #B3A497;
+    cursor: pointer;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 29px;
+    letter-spacing: -0.533333px;
+    color: #434A59;
+}
+.del-button{
+    width: 60px;
+    height: 64px;
+    border-radius: 5px;
+    background-color:#647198;
+    border: 0;
+    box-shadow: inset 0px -4px 0px #414E73;
+    cursor: pointer;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: -0.333333px;
+    color: #FFFFFF;
+}
+.plus-button{
+    width: 60px;
+    height: 64px;
+    border-radius: 5px;
+    background-color:#EAE3DC;
+    border: 0;
+    box-shadow: inset 0px -4px 0px #B3A497;
+    cursor: pointer;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 29px;
+    letter-spacing: -0.533333px;
+    color: #434A59;
+}
+.minus-button{
+    width: 60px;
+    height: 64px;
+    border-radius: 5px;
+    background-color:#EAE3DC;
+    border: 0;
+    box-shadow: inset 0px -4px 0px #B3A497;
+    cursor: pointer;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 29px;
+    letter-spacing: -0.533333px;
+    color: #434A59;
+}
+.dot-button{
+    width: 60px;
+    height: 64px;
+    border-radius: 5px;
+    background-color:#EAE3DC;
+    border: 0;
+    box-shadow: inset 0px -4px 0px #B3A497;
+    cursor: pointer;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 29px;
+    letter-spacing: -0.533333px;
+    color: #434A59;
+}
+.devide-button{
+    width: 60px;
+    height: 64px;
+    border-radius: 5px;
+    background-color:#EAE3DC;
+    border: 0;
+    box-shadow: inset 0px -4px 0px #B3A497;
+    cursor: pointer;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 29px;
+    letter-spacing: -0.533333px;
+    color: #434A59;
+}
+.multiply-button{
+    width: 60px;
+    height: 64px;
+    border-radius: 5px;
+    background-color:#EAE3DC;
+    border: 0;
+    box-shadow: inset 0px -4px 0px #B3A497;
+    cursor: pointer;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 29px;
+    letter-spacing: -0.533333px;
+    color: #434A59;
+}
+.reset-button{
+    width: 133px;
+    height: 64px;
+    border-radius: 5px;
+    background-color:#647198;
+    border: 0;
+    box-shadow: inset 0px -4px 0px #414E73;
+    cursor: pointer;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: -0.333333px;
+    color: #FFFFFF;
+}
+.equal-button{
+    width: 133px;
+    height: 64px;
+    border-radius: 5px;
+    background-color:#D03F2F;
+    border: 0;
+    box-shadow: inset 0px -4px 0px #93261A;
+    cursor: pointer;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: -0.333333px;
+    color: #FFFFFF;
+}
+.first-row{
+    display: flex;
+    gap: 13px;
+    margin-top: 24px;
+    margin-bottom: 13px;
+}
+.second-row{
+    display: flex;
+    gap: 13px;
+    margin-bottom: 13px;
+}
+.third-row{
+    display: flex;
+    gap: 13px;
+    margin-bottom: 13px;
+}
+.fourth-row{
+    display: flex;
+    gap: 13px;
+    margin-bottom: 13px;
+}
+.fifth-row{
+    display: flex;
+    gap: 13px;
+    margin-bottom: 24px;
+}
+.button:hover, .plus-button:hover, .minus-button:hover, .multiply-button:hover, .devide-button:hover, .dot-button:hover{
+    background-color: #FFFFFE;
+    box-shadow: inset 0px -4px 0px #B3A497;
+}
+.del-button:hover{
+    background: #A2B2E1;
+    box-shadow: inset 0px -4px 0px #414E73;
+}
+.del-button-dark:hover{
+    background: #A2B2E1;
+    box-shadow: inset 0px -4px 0px #414E73;
+}
+.del-button-light:hover{
+    background: #62B5BC;
+    box-shadow: inset 0px -4px 0px #1B6066;
+}
+.equal-button-light:hover{
+    background: #62B5BC;
+    box-shadow: inset 0px -4px 0px #1B6066;
+}
+.reset-button:hover{
+    background: #A2B2E1;
+    box-shadow: inset 0px -4px 0px #414E73;
+}
+.equal-button:hover{
+    background: #F96B5B;
+    box-shadow: inset 0px -4px 0px #93261A;
+}
+.slider {
+    -webkit-appearance: none;
+    width: 61px;
+    height: 26px;
+    border-radius: 13px;
+    background: #242D44;
+    outline: none;
+    padding: 0px 5px 0px 5px;
+    cursor: pointer;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: var(--dark-theme);
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #242D44;
+    cursor: pointer;
+  }
+  p{
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 11px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .first-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  .theme-numbers{
+    display: flex;
+    justify-content: space-around;
+  }
+  .calc-light{
+    color: #36362C;
+  }
+  .theme-light{
+    color: #36362C;
+  }
+  .p-light{
+    color: #36362C;
+  }
+  .slider-light{
+    background-color: #D2CDCD;
+  }
+  .input-light{
+    background-color: #EEEEEE;
+    color: #36362C;
+  }
+  .second-div-light{
+    background-color: #D2CDCD;
+  }
+  .button-light{
+    background-color: #E5E4E1;
+    box-shadow: inset 0px -4px 0px #A79E91;
+    color: #36362C;
+  }
+  .del-button-light{
+    color: #FFFFFF;
+    background-color: #378187;
+    box-shadow: inset 0px -4px 0px #1B6066;
+  }
+  .reset-button-light{
+    color: #FFFFFF;
+    background-color: #378187;
+    box-shadow: inset 0px -4px 0px #1B6066;
+  }
+  .reset-button-light:hover{
+    background: #62B5BC;
+    box-shadow: inset 0px -4px 0px #1B6066;
+  }
+  .equal-button-light{
+    color: #FFFFFF;
+    background: #C85402;
+    box-shadow: inset 0px -4px 0px #873901;
+  }
+  .calc-neon{
+    color: #FFE53D;
+  }
+  .theme-neon{
+    color: #FFE53D;
+  }
+  .p-neon{
+    color: #FFE53D;
+  }
+  .slider-neon{
+    background-color: #1E0936;
+  }
+  .input-neon{
+    background-color: #1E0936;
+    color: #FFE53D;
+  }
+  .second-div-neon{
+    background-color: #1E0936;
+  }
+  .button-neon{
+    color: #FFE53D;
+    background: #331C4D;
+    box-shadow: inset 0px -4px 0px #881C9E;
+  }
+  .del-button-neon{
+    color: #FFFFFF;
+    background: #56077C;
+    box-shadow: inset 0px -4px 0px #BE15F4;
+  }
+  .reset-button-neon{
+    color: #FFFFFF;
+    background: #56077C;
+    box-shadow: inset 0px -4px 0px #BE15F4;
+  }
+  .equal-button-neon{
+    color: #FFFFFF;
+    background: #00DED0;
+    box-shadow: inset 0px -4px 0px #6CF9F1;
+  }
+  .del-button-neon:hover{
+    background: #8631AF;
+    box-shadow: inset 0px -4px 0px #BE15F4;
+  }
+  .reset-button-neon:hover{
+    background: #8631AF;
+    box-shadow: inset 0px -4px 0px #BE15F4;
+  }
+  .equal-button-neon:hover{
+    background: #93FFF8;
+    box-shadow: inset 0px -4px 0px #6CF9F1;
+  }
+  .button-neon:hover{
+    background: #6C34AC;
+    box-shadow: inset 0px -4px 0px #881C9E;
+  }
